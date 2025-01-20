@@ -36,3 +36,7 @@ print(mm.sum(2,3)) # 5
 print(mm.sub(2,3)) # -1
 print(mm.mul(2,3)) # 6
 print(mm.div(2,3)) # 0.6666666666666666
+
+
+myList = [1,2,3,4,5,6,7,8,2,3]  
+print(mm.sum_list(myList)) # 15

@@ -11,7 +11,15 @@ def mul(a,b):
 def div(a,b):
     return a / b
 
+def sum_list(numbersList):
+    sum = 0
+    for i in numbersList:
+        sum += i
+    return sum
+
 # Variables
 pi = 3.14
 username = "admin"
 password = "admin123"
+
+
